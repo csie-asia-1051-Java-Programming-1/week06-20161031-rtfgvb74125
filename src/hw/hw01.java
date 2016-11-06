@@ -24,9 +24,9 @@ public class hw01 {
 
 	public static float fun(float n, float m) {
 		if (m == 1) {
-			n = (float) (n * 9 / 5 + 32);
+			n =  (n - 32) * ((float) 5 / 9);
 		} else if (m == 2) {
-			n = (float) (n - 32) * ((float) 5 / 9);
+			n =  (n * ((float)9 / 5) + 32);
 		} else {
 			System.out.println("輸入錯誤訊息溫度無法轉變");
 		}
